@@ -4,9 +4,24 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Haley Dawe",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Sam"
+    },
+    {
+      "name": "Haley"
+    },
+    {
+      "name": "Yuko"
+    }
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
